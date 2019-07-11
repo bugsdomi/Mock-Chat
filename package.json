@@ -1,21 +1,29 @@
 {
   "name": "super-chat",
-  "version": "0.1.0",
-  "dependencies": {
-    "ent": "^0.1.0",
-    "express": "^4.16.4",
-    "socket.io": "^2.2.0"
-  },
-  "author": "Mateo21 <mateo21@email.com>",
-  "description": "Un super Chat temps réel avec socket.io",
+  "version": "1.0.0",
+  "description": "Maquette du Chat",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon app.js"
   },
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "super-chat"
+    "url": "git+https://github.com/bugsdomi/Mock-Chat.git"
+  },
+  "keywords": [
+    "Collect'Or",
+    "Chat"
+  ],
+  "author": "DH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugsdomi/Mock-Chat/issues"
+  },
+  "homepage": "https://github.com/bugsdomi/Mock-Chat#readme",
+  "dependencies": {
+    "ent": "^2.2.0",
+    "express": "^4.16.4",
+    "express.js": "^1.0.0",
+    "socket.io": "^2.2.0"
   }
 }
